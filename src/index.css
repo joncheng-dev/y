@@ -21,6 +21,21 @@ code {
   width: 70%;
 }
 
+.ad {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 95%;
+}
+
+.yeetPost {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 #header {
   background-color: #9bbec8;
   border: 1px #9bbec8 solid;

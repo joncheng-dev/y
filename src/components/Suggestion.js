@@ -5,12 +5,12 @@ function SuggestionPost(props) {
   return (
     <React.Fragment>
       <p>
-        <strong>Name:</strong> {props.name}
+        <strong>{props.name}</strong>
       </p>
       <p>
-        <strong>Suggestion:</strong> {props.body}
+        <em>{props.body}</em>
       </p>
-      <img src={props.imgAddress} class="center" alt="ad image" />
+      <img src={props.imgAddress} class="ad" alt="ad image" />
       <hr />
     </React.Fragment>
   );

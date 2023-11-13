@@ -4,10 +4,12 @@ import PropTypes from "prop-types";
 function YeetPost(props) {
   return (
     <React.Fragment>
-      <p class="post-author">Author: {props.author}</p>
-      <p>Post: {props.post}</p>
-      <p>Time Posted: {props.timePosted}</p>
-      <p>Yass Count: {props.yass}</p>
+      <div class="yeetPost">
+        <p class="post-author">Author: {props.author}</p>
+        <p>Post: {props.post}</p>
+        <p>Time Posted: {props.timePosted}</p>
+        <p>Yass Count: {props.yass}</p>
+      </div>
       <hr />
     </React.Fragment>
   );
