@@ -6,7 +6,7 @@ function Profile() {
     <React.Fragment>
       <h1>Elaine Monks</h1>
       <hr />
-      <img src={elaineprofile} alt="elaine's profile photo" />
+      <img src={elaineprofile} class="center" alt="elaine's profile photo" />
       <h3>Yass Fam: 5,067</h3>
       <hr />
       <h3>About Me: </h3>
